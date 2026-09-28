@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.code-workspace
+
+# Office and LaTeX temporary artefacts
+~$*
+*.tmp
+*.bak
+*.orig
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Python (only relevant if tooling is ever added)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Note: the report PDF and the presentation are deliberately tracked.
+# Do not add *.pdf or *.pptx to this file.

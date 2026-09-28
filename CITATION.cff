@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you refer to this survey, please cite the work below."
+title: "A Comprehensive Review of LMU-Based Models and Their Integration into Advanced Neuromorphic Systems"
+abstract: >-
+  Repository for an M.Sc. survey of Legendre Memory Unit (LMU) based models and
+  their integration with neuromorphic technologies. The work analyses the
+  evolution of the LMU, its relationship to the HiPPO framework and to State
+  Space Models, its advantages relative to modern architectures, and its
+  applications across several domains, with particular emphasis on neuromorphic
+  aspects and on attempts to position it as an alternative to Transformers.
+type: dataset
+authors:
+  - family-names: "Bar Lev"
+    given-names: "Gal"
+    affiliation: "The Open University of Israel, Department of Mathematics and Computer Science"
+keywords:
+  - "Legendre Memory Unit"
+  - "LMU"
+  - "HiPPO"
+  - "State Space Models"
+  - "Mamba"
+  - "selective state spaces"
+  - "neuromorphic computing"
+  - "spiking neural networks"
+  - "LIF neurons"
+  - "sequence modeling"
+  - "long-range dependencies"
+  - "edge computing"
+repository-code: "https://github.com/galbar8/lmu-neuromorphic-computing"
+
+# The citable work itself. The report body is in Hebrew; the title is the
+# author's own English title from the English title page (p. 97), which is also
+# dated 02/2025 — only month and year are stated, so no day is recorded.
+preferred-citation:
+  type: thesis
+  title: "A Comprehensive Review of LMU-Based Models and Their Integration into Advanced Neuromorphic Systems"
+  authors:
+    - family-names: "Bar Lev"
+      given-names: "Gal"
+  year: 2025
+  month: 2
+  thesis-type: "M.Sc. final paper"
+  institution:
+    name: "The Open University of Israel"
+  department: "Department of Mathematics and Computer Science"
+  languages:
+    - heb
+    - eng
+  # TODO: add `doi:` and/or `url:` if the Open University publishes this work in
+  # an institutional repository. No DOI or permanent URL is stated in the report.
